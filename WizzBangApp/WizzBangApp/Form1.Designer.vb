@@ -25,6 +25,7 @@ Partial Class Form1
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.ComboBox1 = New System.Windows.Forms.ComboBox()
+        Me.BtnSteve = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
@@ -63,12 +64,22 @@ Partial Class Form1
         Me.Button2.Text = "Ashish's button"
         Me.Button2.UseVisualStyleBackColor = True
         '
+        'BtnSteve
+        '
+        Me.BtnSteve.Location = New System.Drawing.Point(155, 24)
+        Me.BtnSteve.Name = "BtnSteve"
+        Me.BtnSteve.Size = New System.Drawing.Size(99, 33)
+        Me.BtnSteve.TabIndex = 3
+        Me.BtnSteve.Text = "Steve's Button"
+        Me.BtnSteve.UseVisualStyleBackColor = True
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(284, 261)
         Me.Controls.Add(Me.Button2)
+        Me.Controls.Add(Me.BtnSteve)
         Me.Controls.Add(Me.ComboBox1)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.Button1)
@@ -82,5 +93,6 @@ Partial Class Form1
     Friend WithEvents Label1 As System.Windows.Forms.Label
     Friend WithEvents ComboBox1 As System.Windows.Forms.ComboBox
     Friend WithEvents Button2 As System.Windows.Forms.Button
+    Friend WithEvents BtnSteve As System.Windows.Forms.Button
 
 End Class
